@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.BelgiqueDirect"
+       name="[COLOR red]•BelgiqueDirect•[/COLOR]"
+       version="1.0.1"
+       provider-name="[COLOR blue]Sphinxroot[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">  
+  <summary lang="en">La Tv De La Belgique En Direct Fr</summary>
+    <description lang="en">Ecoutez Les Stations De La Belgique En Direct FR
+	</description>
+    <platform>all</platform>
+	<language>en</language>
+	<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <website></website>
+    <email></email>
+    <source>https://github.com/Sphinxroot</source>
+	</extension>
+</addon>
